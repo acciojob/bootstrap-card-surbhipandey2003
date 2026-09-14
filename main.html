@@ -4,10 +4,39 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<title>Bootstrap Cards</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+	<h1>Welcome to Sync5</h1>
+	<div class="card-deck">
+		
+		<div class="card">
+		  <div class="card-header">New Featured</div>
+		  <div class="card-body">
+			  <h6 class="card-title">Mobile and Tablet support</h6>
+			  <p class="card-text">With this new update you will be able to sync your work across a large number of platforms.</p>
+			  <button class="btn btn-primary">Read more</button>
+		  </div>	
+		</div>	
+		<br>
+		<div class="card bg-danger text-white w-50">
+			<div class="card-header">Alert</div>
+			<div class="card-body">
+				<h6 class="card-title"> Node Dead</h6>
+				<p class="card-text">Node 5 (east-us) is offline for the last 12 days.</p>
+			</div>
+		</div>
+	</div>
+	<div class="card h-5 w-auto">
+		<img class="card-img-top h-5 w-auto" src="https://picsum.photos/300/200?random=1" alt="card image">
+		<div class="card-body">
+			<h6 class="card-title">President under Pressure</h6>
+			<p class="card-text">The US president is under pressure to respond to a widespread cyber-attack linked to China.</p>
+			<div class="text-muted">Last updated 12 mins ago</div>
+		</div>
+	</div>
     <script type="text/javascript" src="./script.js">
 </script>
 
